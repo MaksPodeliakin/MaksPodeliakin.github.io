@@ -1,189 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <meta charset="utf-8">
-   <title> A-bygg Mark i Svergie AB </title>
-   <link rel="stylesheet" href="style.css">
-   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>uniMail</title>
 </head>
- <body >
-   
-   <header>
-      <div class="logo">
-         <div class="logoheader">
-             <a href="index.html"> <img src="main_icon/logo.png" class="graficlogo" alt="logo" ></a>
-         </div>
-         
-          <nav>
-         <div class="topnav" id="myTopnav">
-            <a href="index.html">HOME</a>
-            <a href="location.html">LOCATION</a>
-            <a href="contact.html">CONTACT</a>
-            <a href="location.html">PARTHNERS</a>
+<body>
 
-         </div>
-      </nav>
-      </div>
+	<form>
 
-<div class="all">
-   <div>
-      
-      <input checked type="radio" name="respond" id="desktop">
-         <article id="slider">
-               <input checked type="radio" name="slider" id="switch1">
-               <input type="radio" name="slider" id="switch2">
-               <input type="radio" name="slider" id="switch3">
-               <input type="radio" name="slider" id="switch4">
-               <input type="radio" name="slider" id="switch5">
-            <div id="slides">
-               <div id="overflow">
-                  <div class="image">
-                     <article><img src="slider_images/1.png"></article>
-                     <article><img src="slider_images/2.png"></article>
-                     <article><img src="slider_images/3.png"></article>
-                     <article><img src="slider_images/4.png"></article>
-                     <article><img src="slider_images/5.png"></article>
-                  </div>
-               </div>
-            </div>
-            <div id="controls">
-               <label for="switch1"></label>
-               <label for="switch2"></label>
-               <label for="switch3"></label>
-               <label for="switch4"></label>
-               <label for="switch5"></label>
-            </div>
-            <div id="active">
-               <label for="switch1"></label>
-               <label for="switch2"></label>
-               <label for="switch3"></label>
-               <label for="switch4"></label>
-               <label for="switch5"></label>
-            </div>
-         </div>
-         </article>
-   </header>
+		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="admin@mail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
 
-      <main>
-         <div class="jjj"> 
-               <h1>
-                  TEXT
-               </h2>
-               </div>
-         <div class="advantages__container">
-            <div class="advantages">
+		<input type="text" name="Name" placeholder="You name..." required><br>
+		<input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+		<input type="text" name="Phone" placeholder="You phone..."><br>
+		<button>Send</button>
 
+	</form>
+	
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="script.js"></script>
 
-           <div class="advantages__item">
-               <img src="main_icon/2.png">
-               <h2>
-                  TEXT
-               </h2>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempororem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-               </p>               
-            </div>
-
-            <div class="advantages__item">
-               <img src="main_icon/2.png">
-               <h2>
-                  TEXT
-               </h2>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempororem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-               </p>              
-            </div>
-
-            <div class="advantages__item">
-               <img src="main_icon/2.png">
-               <h2>
-                  TEXT
-               </h2>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempororem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-               </p>               
-            </div>
-
-            <div class="advantages__item">
-               <img src="main_icon/2.png">
-               <h2>
-                  TEXT
-               </h2>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempororem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-               </p>               
-            </div>
-
-
-             <div class="advantages__item">
-               <img src="main_icon/2.png">
-               <h2>
-                  TEXT
-               </h2>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempororem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-               </p>              
-            </div>
-
-
-             <div class="advantages__item">
-               <img src="main_icon/2.png">
-               <h2>
-                  TEXT
-               </h2>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempororem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-               </p>              
-            </div>
-
-
-
-
-            </div>
-         </div>
-      </main>
-
-<div class="contact">
-  <div class="jjj2"> 
-               <h1>
-                  CONTACT
-               </h1>
-               </div>
-   <form class="form" action="mail.php" method="POST">
-      <!-- Hidden Required Fields -->
-     <input type="hidden" name="project_name" value="Site Name">
-      <input type="hidden" name="admin_email" value="maksvolkov103@gmail.com">
-      <input type="hidden" name="form_subject" value="Form Subject">
-      <!-- END Hidden Required Fields -->
-
-      <input type="text" name="Name" placeholder="You name..." required class="feedback-input"><br>
-      <input type="text" name="E-mail" placeholder="You E-mail..." required"feedback-input" class="feedback-input"><br>
-      <input type="text" name="Phone" placeholder="You phone...""feedback-input" class="feedback-input"><br>
-      <button class="button-submit">Send</button>
-   </form>
-</div>
-
-      <footer>
-
-<div class="footermenu">
-       <a href="index.html">HOME</a>
-            <a href="location.html">LOCATION</a>
-            <a href="contact.html">CONTACT</a>
-            <a href="location.html">PARTHNERS</a>
-</div>
-        
-
-
-    <a href="index.html"><img class = "graficlogofooter" src="main_icon/logo.png"></a>
-      <div class="social">
-         <a href="#"><img src="social_icon/inst.png"></a>
-         <a href="#"><img src="social_icon/em.png"></a>
-         <a href="#"><img src="social_icon/face.png"></a>
-     </div>
-
-<p>a-bygg web developer. 2019-2021</p>
-      </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="script.js"></script>
- </body>
+</body>
 </html>
